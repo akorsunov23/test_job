@@ -40,3 +40,22 @@ http://127.0.0.1:8000/buy_order/{id}
 Получение SessionID выбранного заказа.
 
 ### Запуск проекта на удалённом сервере
+
+- на удалённом сервере доступные методы:
+```angular2html
+http://akorsunov.beget.tech/item/{id}
+```
+Для вывода детальной информации о товаре и возможности оплатить его 
+использую библиотеку Stripe.
+```angular2html
+http://akorsunov.beget.tech/buy/{id}
+```
+Получение SessionID выбранного товара.
+```angular2html
+http://akorsunov.beget.tech/order/{id}
+```
+Для вывода детальной информации о заказе и возможности оплатить его 
+использую библиотеку Stripe.
+```angular2html
+http://akorsunov.beget.tech/buy_order/{id}
+```
